@@ -6,41 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
 </head>
 <body>
-   <div class="header">
-    <div class="player-btn">
-        <button>player 1</button>
-        <button>player 2</button>
+   <header>Tic-Tac-Toe</header>
+    <div class="game-wrapper">
+        <div class="squares">
+            <div class="btn1">
+                
+                
+            <button class="square-btn">1</button>
+            <button class="square-btn">2</button>
+            <button class="square-btn">3</button>
+            </div>
+            <div class="btn1">
+            <button class="square-btn">4</button>
+            <button class="square-btn">5</button>
+            <button class="square-btn">6</button>
+            </div>
+            <div class="btn1">
+            <button class="square-btn">7</button>
+            <button class="square-btn">8</button>
+            <button class="square-btn">9</button>
+            </div>
+        </div>
+        <div class="top-titles">
+            <div class="left-btn">
+                <button class="play-btn">play</button>
+                <button class="reset-btn">reset</button>
+            </div>
+            <div class="right-btn">
+                <p>time remaining : timer </p>
+                <button class="pause-btn">pause</button>
+               
+               
+            </div>
+            
+        </div>
+        <div class="information">
+            <div class="players">
+                <button class="player-1">player 1</button>
+                <button class="player-2">player 2</button>
+            </div>
+            <div class="info">
+                <p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                      Game Instruction
+                    </button>
+                  </p>
+                  <div style="min-height: 120px;">
+                    <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                      <div class="card card-body" style="width: 300px;">
+                        This is some placeholder content for a horizontal collapse. It's hidden by default and shown when triggered.
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
     </div>
-    <div>
-        <p>time remaining : <span class="timer" > timer </span></p>
-        <button class="pause-btn" >pause</button><button class="resume-btn" >resume</button>
-    </div>
-    </div>
-   <div class="tic-tac">
-    <button class="first-btn"></button>
-    <button></button>
-    <button></button>
-    <button></button>
-    <button></button>
-    <button></button>
-    <button></button>
-    <button></button>
-    <button></button>
-   </div>
-   <div class="footer">
-    <button>play again</button>
-    <button class="play-btn" >play</button>
-   </div>
+        
+    <footer>
+        <p>player ? is the winner</p>
+    </footer>
 
-
-
-
-
-
-    <script src="tic-tac-toe.js"></script>
     
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
