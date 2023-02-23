@@ -1,14 +1,10 @@
 
 .x {
-background-color: red;
-color: blueviolet;
 background-image: url('images/tom.png');
 background-size: cover;
 
 }
 .o {
-    background-color: black;
-    color: #1d7b45;
     background-image: url('images/jerry.png');
     background-size: cover;
     
